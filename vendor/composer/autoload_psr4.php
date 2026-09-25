@@ -6,8 +6,5 @@ $vendorDir = dirname(__DIR__);
 $baseDir = dirname($vendorDir);
 
 return array(
-    'PhpParser\\' => array($vendorDir . '/nikic/php-parser/lib/PhpParser'),
-    'Grav\\Plugin\\Sync\\Tests\\' => array($baseDir . '/tests'),
     'Grav\\Plugin\\Sync\\' => array($baseDir . '/classes/Sync'),
-    'DeepCopy\\' => array($vendorDir . '/myclabs/deep-copy/src/DeepCopy'),
 );

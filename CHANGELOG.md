@@ -1,3 +1,9 @@
+# v1.1.8
+## 09/25/2026
+
+1. [](#bugfix)
+    * The plugin zip no longer carries PHPUnit and its dev packages (about 1,700 files): `vendor/` is committed from `composer install --no-dev`
+
 # v1.1.7
 ## 09/03/2026
 
